@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="page">
+      <header>
+        <div class="about">
+          <div>
+            <h1>Random Words & Definition Generator</h1>
+            <p>
+              Discover new random words, their definitions and get defintions
+              for any word you want. <a href="">Github</a>
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="block">
+          <h2 class="block-title">About</h2>
+          <p>
+            Click the button below to generate 20 random words and their
+            definitions. <br />
+            Or use the search field to find a defintion.
+          </p>
+
+          <div class="control">
+            <button id="generate">Generate words</button>
+
+            <input id="search-input" type="text" placeholder="Search a word" />
+            <button id="search">Search</button>
+          </div>
+        </section>
+
+        <section class="block">
+          <h2 class="block-title">Words</h2>
+          <p id="message">nothing here yet....</p>
+          <div id="words"></div>
+        </section>
+      </main>
+
+      <footer>
+        <p>
+          Results are from
+          <a href="https://randomlexicon.com/api-reference"
+            >randomlexicon.com</a
+          >
+        </p>
+      </footer>
+
+      <script src="script.js"></script>
+    </div>
+  </body>
+</html>

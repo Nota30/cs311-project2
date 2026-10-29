@@ -1,0 +1,77 @@
+html {
+  color-scheme: dark;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  color: #c9c9c9;
+}
+
+#page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.about h1 {
+  background: #fdbb2d;
+  background: linear-gradient(
+    90deg,
+    rgba(253, 187, 45, 1) 0%,
+    rgba(58, 28, 113, 1) 60%
+  );
+  background-clip: text;
+  color: transparent;
+}
+
+.block {
+  margin-bottom: 55px;
+}
+
+.block-title {
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+button,
+input {
+  font: inherit;
+  background: transparent;
+  border: 1px solid #3d3d3d;
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+
+button:hover {
+  border-color: white;
+}
+
+input:focus {
+  outline: none;
+  border-color: white;
+}
+
+.error {
+  color: red;
+}
+
+.row {
+  display: flex;
+  gap: 100px;
+  margin-top: 25px;
+}
+
+.row .label {
+  width: 110px;
+  flex-shrink: 0;
+  color: #8a8a8a;
+}
